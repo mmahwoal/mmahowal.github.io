@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+
+</style>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mark Mahowald, ITIS3135, HTML Tables</title>
+    <link rel="stylesheet" type="text/css" href="Activity2.css">
+</head>
+
+<body>
+<header>
+    <h1>Mark Mahowald --- ITIS3135</h1>
+</header>
+<nav>
+    <a href="introduction.html">Introduction</a>
+    ||
+    <a href="contract.html">Contract</a>
+</nav>
+
+<main>
+    <h2>HTML Tables</h2>
+
+    <h3>My Tabular Data</h3>
+<ol>
+    <li>
+        Anakin Skywalker A.Skywalker@JediTemple.com 20
+    </li>
+    <li>
+        Obi Wan Kenobi O.Kenobi@JediTemple.com 30
+    </li>
+    <li>
+        Mace Windu M.Windu@JediTemple.com  40
+    </li>
+    <li>
+        Plo Koon P.Koon@JediTemple.com 40
+    </li>
+    <li>
+        Ahsokah Tano A.Tano@JediTemple.com 15
+    </li>
+    <li>
+        Sheev Palpatine S.Palpatine@GalacticSenate.com 50
+    </li>
+    <li>
+        Captain Rex C.RexCT7567@501legion.com 10
+    </li>
+    <li>
+        Fives AC.Fives5555@501legion.com 10
+    </li>
+</ol>
+
+
+    <h3>Employee Data in Simple Table</h3>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>E-mail</th>
+            <th class="right"> Years of Service</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Anakin Skywalker</td>
+            <td>A.Skywalker@JediTemple.com</td>
+            <td class="right">20</td>
+        </tr>
+        <tr>
+            <td>Obi Wan Kenobi</td>
+            <td>O.Kenobi@JediTemple.com</td>
+            <td class="right">30</td>
+        </tr>
+        <tr>
+            <td>Mace Wind</td>
+            <td>M.Windu@JediTemple.com</td>
+            <td class="right">40</td>
+        </tr>
+        <tr>
+            <td>Plo Koon</td>
+            <td>P.Koon@JediTemple.com</td>
+            <td class="right">40</td>
+        </tr>
+        <tr>
+            <td>Ahsokah Tano</td>
+            <td>A.Tano@JediTemple.com</td>
+            <td class="right">15</td>
+        </tr>
+        <tr>
+            <td>Sheev Palpatine</td>
+            <td>S.Palpatine@GalacticSenate.com</td>
+            <td class="right">50</td>
+        </tr>
+        <tr>
+            <td>Captain Rex</td>
+            <td>C.RexCT7567@501legion.com</td>
+            <td class="right">10</td>
+        </tr>
+        <tr>
+            <td>Fives</td>
+            <td>AC.Fives5555@501legion.com</td>
+            <td class="right">10</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h3>Employee Data in Complex Table</h3>
+    <figure>
+        <figcaption>Galactic Employee Expenditures</figcaption>
+    <table>
+        <thead>
+        <tr>
+            <th>Department</th>
+            <th>Name</th>
+            <th>E-mail</th>
+            <th class="right"> Years of Service</th>
+            <th>Salary</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th rowspan="5">Jedi</th>
+            <td>Anakin Skywalker</td>
+            <td>A.Skywalker@JediTemple.com</td>
+            <td class="right">20</td>
+            <td>$150,000</td>
+        </tr>
+        <tr>
+            <td>Obi Wan Kenobi</td>
+            <td>O.Kenobi@JediTemple.com</td>
+            <td class="right">30</td>
+            <td>$150,000</td>
+        </tr>
+        <tr>
+            <td>Mace Wind</td>
+            <td>M.Windu@JediTemple.com</td>
+            <td class="right">40</td>
+            <td>$250,000</td>
+        </tr>
+        <tr>
+            <td>Plo Koon</td>
+            <td>P.Koon@JediTemple.com</td>
+            <td class="right">40</td>
+            <td>$200,000</td>
+        </tr>
+        <tr>
+            <td>Ahsokah Tano</td>
+            <td>A.Tano@JediTemple.com</td>
+            <td class="right">15</td>
+            <td>$100,000</td>
+        </tr>
+        <tr>
+            <th>Chancelor</th>
+            <td>Sheev Palpatine</td>
+            <td>S.Palpatine@GalacticSenate.com</td>
+            <td class="right">50</td>
+            <td>$350,000</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Troopers</th>
+            <td>Captain Rex</td>
+            <td>C.RexCT7567@501legion.com</td>
+            <td class="right">10</td>
+            <td>$60,000</td>
+        </tr>
+        <tr>
+            <td>Fives</td>
+            <td>AC.Fives5555@501legion.com</td>
+            <td class="right">10</td>
+            <td>$60,000</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="right"><b>Total years Served</b></td>
+            <td>215</td>
+            <td class="right"><b>Total Salary = $1,320,000 </b></td>
+        </tr>
+        </tbody>
+    </table>
+    </figure>
+
+
+
+
+</main>
+
+<footer>
+    <br/>
+    <nav>
+        <a href="http://webpages.uncc.edu/mmahowal/" target="_blank">Charlotte.edu</a> &#9553;
+        <a href="https://github.com/mmahwoal/" target="_blank">Github</a> &#9553;
+        <a href="https://github.com/mmahwoal/mmahowal.github.io" target="_blank">Github.io</a> &#9553;
+        <a href="https://github.com/mmahwoal/mmahowal.github.io/tree/main/itis3135" target="_blank">ITIS 3135 Github Pages</a> &#9553;
+        <a href="https://www.codecademy.com/divonbriesen/" target="_blank">Codecademy</a> &#9553;
+        <a href="https://www.freecodecamp.org/mandalore1337" target="_blank">freeCodeCamp</a> &#9553;
+        <a href="https://jsfiddle.net/user/divonbriesen/" target="_blank">JSFiddle</a> &#9553;
+        <a href="https://www.linkedin.com/in/markmahowald/" target="_blank">LinkedIn</a> &#9553;
+    </nav>
+    <br />
+    <p>
+        designed by: Your Local Techpriest "Praise the Omnissiah!"
+    </p>
+    <a href="https://validator.w3.org/check?uri=referer">
+        <img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+    </a>
+
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
+    </a>
+
+</footer>
+
+</body>
+
+</html>
+
